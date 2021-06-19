@@ -1,108 +1,108 @@
 {
   "cards-horizontal.html": {
-    "file": "assets/cards-horizontal.9c88b663.js",
+    "file": "assets/cards-horizontal.1a613c6e.js",
     "src": "cards-horizontal.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "cards.html": {
-    "file": "assets/cards.bffd3733.js",
+    "file": "assets/cards.f64a144f.js",
     "src": "cards.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "carousel.html": {
-    "file": "assets/carousel.4f7d4e2a.js",
+    "file": "assets/carousel.034bf3b3.js",
     "src": "carousel.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "footers.html": {
-    "file": "assets/footers.5369025d.js",
+    "file": "assets/footers.acb6c2b7.js",
     "src": "footers.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "forms.html": {
-    "file": "assets/forms.06c44ac7.js",
+    "file": "assets/forms.9426ecf8.js",
     "src": "forms.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "headers.html": {
-    "file": "assets/headers.dc13f92f.js",
+    "file": "assets/headers.daae53b3.js",
     "src": "headers.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "index.html": {
-    "file": "assets/index.38d08f39.js",
+    "file": "assets/index.f563614f.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "list.html": {
-    "file": "assets/list.3f5ca74d.js",
+    "file": "assets/list.c5acbd53.js",
     "src": "list.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "sidebar.html": {
-    "file": "assets/sidebar.d8017dcc.js",
+    "file": "assets/sidebar.4eda72a7.js",
     "src": "sidebar.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "slideshow.html": {
-    "file": "assets/slideshow.3b05b7ba.js",
+    "file": "assets/slideshow.b486d0a7.js",
     "src": "slideshow.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "tables.html": {
-    "file": "assets/tables.5ca9b133.js",
+    "file": "assets/tables.52561c60.js",
     "src": "tables.html",
     "isEntry": true,
     "imports": [
-      "_main.ed56c1b3.js",
+      "_main.e1f6f955.js",
       "_vendor.62b93715.js"
     ]
   },
   "_vendor.62b93715.js": {
     "file": "assets/vendor.62b93715.js"
   },
-  "_main.ed56c1b3.js": {
-    "file": "assets/main.ed56c1b3.js",
+  "_main.e1f6f955.js": {
+    "file": "assets/main.e1f6f955.js",
     "imports": [
       "_vendor.62b93715.js"
     ],
