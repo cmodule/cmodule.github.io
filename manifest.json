@@ -1,0 +1,113 @@
+{
+  "cards-horizontal.html": {
+    "file": "assets/cards-horizontal.9c88b663.js",
+    "src": "cards-horizontal.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "cards.html": {
+    "file": "assets/cards.bffd3733.js",
+    "src": "cards.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "carousel.html": {
+    "file": "assets/carousel.4f7d4e2a.js",
+    "src": "carousel.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "footers.html": {
+    "file": "assets/footers.5369025d.js",
+    "src": "footers.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "forms.html": {
+    "file": "assets/forms.06c44ac7.js",
+    "src": "forms.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "headers.html": {
+    "file": "assets/headers.dc13f92f.js",
+    "src": "headers.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index.38d08f39.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "list.html": {
+    "file": "assets/list.3f5ca74d.js",
+    "src": "list.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "sidebar.html": {
+    "file": "assets/sidebar.d8017dcc.js",
+    "src": "sidebar.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "slideshow.html": {
+    "file": "assets/slideshow.3b05b7ba.js",
+    "src": "slideshow.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "tables.html": {
+    "file": "assets/tables.5ca9b133.js",
+    "src": "tables.html",
+    "isEntry": true,
+    "imports": [
+      "_main.ed56c1b3.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "_vendor.62b93715.js": {
+    "file": "assets/vendor.62b93715.js"
+  },
+  "_main.ed56c1b3.js": {
+    "file": "assets/main.ed56c1b3.js",
+    "imports": [
+      "_vendor.62b93715.js"
+    ],
+    "css": [
+      "assets/main.49e69809.css"
+    ]
+  }
+}
