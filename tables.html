@@ -10,10 +10,10 @@
   <title>C Module Prebuilt Tailwind Components</title>
   <link href="/icons/boxicons.min.css?v=1" rel="stylesheet">
   <script src="/icons/boxicons.js?v=1"></script>
-<script type="module" crossorigin src="/assets/tables.52561c60.js"></script>
-  <link rel="modulepreload" href="/assets/main.e1f6f955.js">
+<script type="module" crossorigin src="/assets/tables.35b4adf5.js"></script>
+  <link rel="modulepreload" href="/assets/main.69d98cdb.js">
   <link rel="modulepreload" href="/assets/vendor.62b93715.js">
-  <link rel="stylesheet" href="/assets/main.49e69809.css">
+  <link rel="stylesheet" href="/assets/main.42f32622.css">
 </head>
 
 <body>
@@ -98,22 +98,6 @@
                 </a>
                 <a
                   class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
-                  href="/list.html"
-                  :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/list.html' }"
-                >
-                  <box-icon name="news" color="currentColor"></box-icon>
-                  <span class="ml-2 text-sm font-medium">List</span>
-                </a>
-                <a
-                  class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
-                  href="/tables.html"
-                  :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/tables.html' }"
-                >
-                  <box-icon name="dock-top" color="currentColor"></box-icon>
-                  <span class="ml-2 text-sm font-medium">Tables</span>
-                </a>
-                <a
-                  class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
                   href="/carousel.html"
                   :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/carousel.html' }"
                 >
@@ -127,6 +111,22 @@
                 >
                   <box-icon name="slideshow" color="currentColor"></box-icon>
                   <span class="ml-2 text-sm font-medium">Slideshow</span>
+                </a>
+                <a
+                  class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
+                  href="/list.html"
+                  :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/list.html' }"
+                >
+                  <box-icon name="news" color="currentColor"></box-icon>
+                  <span class="ml-2 text-sm font-medium">List</span>
+                </a>
+                <a
+                  class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
+                  href="/tables.html"
+                  :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/tables.html' }"
+                >
+                  <box-icon name="dock-top" color="currentColor"></box-icon>
+                  <span class="ml-2 text-sm font-medium">Tables</span>
                 </a>
               </div>
             </div>
@@ -173,10 +173,348 @@
               <div id="html" class="p-4 overflow-auto">
                 <div class="flex flex-col sm:min-h-full">
                   
-                  <div
-                    class="rounded-3xl flex items-center justify-center w-full h-96 bg-gray-200 text-gray-700 dark:bg-gray-900 dark:text-gray-200 overflow-auto">
-                    <h1 class="font-semibold text-3xl">Coming Soon ...</h1>
+                  <h2 class="text-2xl font-semibold mb-4">Basic Table</h2>
+                  
+                  <table
+                    class="table p-4 shadow rounded-lg overflow-hidden mb-8 bg-white text-gray-700 dark:bg-gray-700 dark:text-gray-100">
+                    <thead class="text-left">
+                      <tr>
+                        <th
+                          class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5 whitespace-nowrap font-normal uppercase text-gray-400">
+                          #
+                        </th>
+                        <th
+                          class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5 whitespace-nowrap font-normal uppercase text-gray-400">
+                          First name
+                        </th>
+                        <th
+                          class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5 whitespace-nowrap font-normal uppercase text-gray-400">
+                          Last name
+                        </th>
+                        <th
+                          class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5 whitespace-nowrap font-normal uppercase text-gray-400">
+                          Username
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody class="text-left">
+                      <tr>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          1
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Jean Marc
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Louis
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Jl987
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          2
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Eric
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Prouve
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          prouveE
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          3
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Julien
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Clai
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          CJUL87
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          4
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Igor
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          Louth
+                        </td>
+                        <td class="border-b-2 dark:border-gray-500 p-4 dark:border-dark-5">
+                          IGL89_9
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <h2 class="text-2xl font-semibold mb-4">Table Adventure</h2>
+                  
+                  <div class="w-full">
+                    <div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
+                      <h2 class="text-2xl leading-tight">
+                        Users
+                      </h2>
+                      <div class="text-end">
+                        <form class="flex w-full max-w-sm space-x-3">
+                          <div class=" relative ">
+                            <input type="text" id="&quot;form-subscribe-Filter"
+                              class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                              placeholder="name" />
+                          </div>
+                          <button
+                            class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200"
+                            type="submit">
+                            Filter
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                      <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
+                        <table class="min-w-full leading-normal bg-white text-gray-700 dark:bg-gray-700 dark:text-gray-100">
+                          <thead>
+                            <tr>
+                              <th scope="col"
+                                class="px-5 py-3 border-b-2 dark:border-gray-500 text-gray-400 text-left text-sm uppercase font-normal">
+                                User
+                              </th>
+                              <th scope="col"
+                                class="px-5 py-3 border-b-2 dark:border-gray-500 text-gray-400 text-left text-sm uppercase font-normal">
+                                Role
+                              </th>
+                              <th scope="col"
+                                class="px-5 py-3 border-b-2 dark:border-gray-500 text-gray-400 text-left text-sm uppercase font-normal">
+                                Created at
+                              </th>
+                              <th scope="col"
+                                class="px-5 py-3 border-b-2 dark:border-gray-500 text-gray-400 text-left text-sm uppercase font-normal">
+                                status
+                              </th>
+                              <th scope="col"
+                                class="px-5 py-3 border-b-2 dark:border-gray-500 text-gray-400 text-left text-sm uppercase font-normal">
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <div class="flex items-center">
+                                  <div class="flex-shrink-0">
+                                    <a href="#" class="block relative">
+                                      <img alt="profil"
+                                        src="https://images.generated.photos/dR0k2Wztn0AVEncDXA1tnOmTVMR9-QM7yTWbKSM67KU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5MDc2NDYuanBn.jpg"
+                                        class="mx-auto object-cover rounded-full h-10 w-10 " />
+                                    </a>
+                                  </div>
+                                  <div class="ml-3">
+                                    <p class="whitespace-no-wrap">
+                                      Jean marc
+                                    </p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  Admin
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  12/09/2020
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <span class="relative inline-block px-3 py-1 font-light leading-tight">
+                                  <span aria-hidden="true" class="absolute inset-0 bg-green-500 opacity-50 rounded-full">
+                                  </span>
+                                  <span class="relative">
+                                    active
+                                  </span>
+                                </span>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <a href="#" class="text-blue-500 hover:text-blue-700">
+                                  Edit
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <div class="flex items-center">
+                                  <div class="flex-shrink-0">
+                                    <a href="#" class="block relative">
+                                      <img alt="profil"
+                                        src="https://images.generated.photos/dR0k2Wztn0AVEncDXA1tnOmTVMR9-QM7yTWbKSM67KU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5MDc2NDYuanBn.jpg"
+                                        class="mx-auto object-cover rounded-full h-10 w-10 " />
+                                    </a>
+                                  </div>
+                                  <div class="ml-3">
+                                    <p class="whitespace-no-wrap">
+                                      Marcus coco
+                                    </p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  Designer
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  01/10/2012
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <span class="relative inline-block px-3 py-1 font-light leading-tight">
+                                  <span aria-hidden="true" class="absolute inset-0 bg-green-500 opacity-50 rounded-full">
+                                  </span>
+                                  <span class="relative">
+                                    active
+                                  </span>
+                                </span>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <a href="#" class="text-blue-500 hover:text-blue-700">
+                                  Edit
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <div class="flex items-center">
+                                  <div class="flex-shrink-0">
+                                    <a href="#" class="block relative">
+                                      <img alt="profil"
+                                        src="https://images.generated.photos/dR0k2Wztn0AVEncDXA1tnOmTVMR9-QM7yTWbKSM67KU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5MDc2NDYuanBn.jpg"
+                                        class="mx-auto object-cover rounded-full h-10 w-10 " />
+                                    </a>
+                                  </div>
+                                  <div class="ml-3">
+                                    <p class="whitespace-no-wrap">
+                                      Ecric marc
+                                    </p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  Developer
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  02/10/2018
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <span class="relative inline-block px-3 py-1 font-light leading-tight">
+                                  <span aria-hidden="true" class="absolute inset-0 bg-green-500 opacity-50 rounded-full">
+                                  </span>
+                                  <span class="relative">
+                                    active
+                                  </span>
+                                </span>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <a href="#" class="text-blue-500 hover:text-blue-700">
+                                  Edit
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <div class="flex items-center">
+                                  <div class="flex-shrink-0">
+                                    <a href="#" class="block relative">
+                                      <img alt="profil"
+                                        src="https://images.generated.photos/dR0k2Wztn0AVEncDXA1tnOmTVMR9-QM7yTWbKSM67KU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5MDc2NDYuanBn.jpg"
+                                        class="mx-auto object-cover rounded-full h-10 w-10 " />
+                                    </a>
+                                  </div>
+                                  <div class="ml-3">
+                                    <p class="whitespace-no-wrap">
+                                      Julien Huger
+                                    </p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  User
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <p class="whitespace-no-wrap">
+                                  23/09/2010
+                                </p>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <span class="relative inline-block px-3 py-1 font-light leading-tight">
+                                  <span aria-hidden="true" class="absolute inset-0 bg-green-500 opacity-50 rounded-full">
+                                  </span>
+                                  <span class="relative">
+                                    active
+                                  </span>
+                                </span>
+                              </td>
+                              <td class="px-5 py-5 border-b-2 dark:border-gray-500 text-sm">
+                                <a href="#" class="text-blue-500 hover:text-blue-700">
+                                  Edit
+                                </a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div
+                          class="px-5 py-5 flex flex-col xs:flex-row items-center xs:justify-between bg-gray-100 text-gray-700 dark:bg-gray-600 dark:text-gray-100">
+                          <div class="flex items-center">
+                            <button type="button" class="w-full p-4 border text-base rounded-l-xl dark:text-gray-200 hover:bg-gray-400">
+                              <svg width="9" fill="currentColor" height="8" class="" viewBox="0 0 1792 1792"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                  d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z">
+                                </path>
+                              </svg>
+                            </button>
+                            <button type="button" class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 hover:bg-gray-400 ">
+                              1
+                            </button>
+                            <button type="button" class="w-full px-4 py-2 border text-base dark:text-gray-200 hover:bg-gray-400">
+                              2
+                            </button>
+                            <button type="button"
+                              class="w-full px-4 py-2 border-t border-b text-base dark:text-gray-200 hover:bg-gray-400">
+                              3
+                            </button>
+                            <button type="button" class="w-full px-4 py-2 border text-base dark:text-gray-200 hover:bg-gray-400">
+                              4
+                            </button>
+                            <button type="button"
+                              class="w-full p-4 border-t border-b border-r text-base  rounded-r-xl dark:text-gray-200 hover:bg-gray-400">
+                              <svg width="9" fill="currentColor" height="8" class="" viewBox="0 0 1792 1792"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                  d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z">
+                                </path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                  
                   
                 </div>
               </div>
