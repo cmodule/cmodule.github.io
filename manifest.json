@@ -1,113 +1,127 @@
 {
   "cards-horizontal.html": {
-    "file": "assets/cards-horizontal.2b42fbee.js",
+    "file": "assets/cards-horizontal.83cebd03.js",
     "src": "cards-horizontal.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "cards.html": {
-    "file": "assets/cards.f9106b8e.js",
+    "file": "assets/cards.c724d27f.js",
     "src": "cards.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "carousel.html": {
-    "file": "assets/carousel.c92e7fd1.js",
+    "file": "assets/carousel.62a90a18.js",
     "src": "carousel.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "footers.html": {
-    "file": "assets/footers.9ec979f4.js",
+    "file": "assets/footers.96a15a2e.js",
     "src": "footers.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "forms.html": {
-    "file": "assets/forms.2ec5fca9.js",
+    "file": "assets/forms.2bc001ee.js",
     "src": "forms.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "headers.html": {
-    "file": "assets/headers.05388cab.js",
+    "file": "assets/headers.ef7d7bab.js",
     "src": "headers.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "index.html": {
-    "file": "assets/index.a5680420.js",
+    "file": "assets/index.0ae19609.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "list.html": {
-    "file": "assets/list.77df7cc4.js",
+    "file": "assets/list.39c61b80.js",
     "src": "list.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
+      "_vendor.62b93715.js"
+    ]
+  },
+  "qr.html": {
+    "file": "assets/qr.2e5e4213.js",
+    "src": "qr.html",
+    "isEntry": true
+  },
+  "qrcode.html": {
+    "file": "assets/qrcode.3b08045c.js",
+    "src": "qrcode.html",
+    "isEntry": true,
+    "imports": [
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "sidebar.html": {
-    "file": "assets/sidebar.32842c66.js",
+    "file": "assets/sidebar.43c5e4a3.js",
     "src": "sidebar.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "slideshow.html": {
-    "file": "assets/slideshow.72e4e3c4.js",
+    "file": "assets/slideshow.50f48d0f.js",
     "src": "slideshow.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "tables.html": {
-    "file": "assets/tables.35b4adf5.js",
+    "file": "assets/tables.dd9b899c.js",
     "src": "tables.html",
     "isEntry": true,
     "imports": [
-      "_main.69d98cdb.js",
+      "_main.7637b547.js",
       "_vendor.62b93715.js"
     ]
   },
   "_vendor.62b93715.js": {
     "file": "assets/vendor.62b93715.js"
   },
-  "_main.69d98cdb.js": {
-    "file": "assets/main.69d98cdb.js",
+  "_main.7637b547.js": {
+    "file": "assets/main.7637b547.js",
     "imports": [
       "_vendor.62b93715.js"
     ],
     "css": [
-      "assets/main.42f32622.css"
+      "assets/main.e6dda60b.css"
     ]
   }
 }

@@ -1,0 +1,24 @@
+<script type="module" crossorigin src="/assets/qr.2e5e4213.js"></script>
+<div style="display:flex;justify-content:center;align-items:center;height:100vh;">
+  <canvas id="qr"></canvas>
+</div>
+
+<script src="/js/qrious.min.js"></script>
+<script>
+  function urlParam(name, str) {
+    const href = str || window.location.href;
+    const results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(href);
+    // Need to decode the URL parameters, including putting in a fix for the plus sign
+    // https://stackoverflow.com/a/24417399
+    return results ? decodeURIComponent(results[1].replace(/\+/g, '%20')) : null;
+  }
+  (function () {
+    var code = urlParam('code') || 'https://cmodule.github.io/'
+    var qr = new QRious({
+      element: document.getElementById('qr'),
+      level: 'Q',
+      value: code,
+      size: 240
+    });
+  })();
+</script>

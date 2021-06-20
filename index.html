@@ -9,17 +9,16 @@
   <meta name="keywords" content="Component Tailwind HTML, cards, forms, table, list, carousel, slideshow">
   <meta name="description" content="It has a set of accessible and reusable components that are commonly used in web applications">
   <title>C Module Prebuilt Tailwind Components</title>
-  <title>Tailwind Css</title>
   <link href="/icons/boxicons.min.css?v=1" rel="stylesheet">
   <script src="/icons/boxicons.js?v=1"></script>
-<script type="module" crossorigin src="/assets/index.a5680420.js"></script>
-  <link rel="modulepreload" href="/assets/main.69d98cdb.js">
+<script type="module" crossorigin src="/assets/index.0ae19609.js"></script>
+  <link rel="modulepreload" href="/assets/main.7637b547.js">
   <link rel="modulepreload" href="/assets/vendor.62b93715.js">
-  <link rel="stylesheet" href="/assets/main.42f32622.css">
+  <link rel="stylesheet" href="/assets/main.e6dda60b.css">
 </head>
 
-<body>
-  <div class="overflow-hidden" :class="{'dark': $store.hub.dark}" x-data id="app">
+<body x-data>
+  <div class="overflow-hidden" :class="{'dark': $store.hub.dark}" x-cloak id="app" x-show="!$store.hub.loading">
     <header class="flex w-full shadow-lg bg-white text-gray-700 dark:bg-gray-800 dark:text-gray-100 h-16 z-40"
       id="header">
       <div class="flex items-center w-80 h-full">
@@ -130,6 +129,14 @@
                   <box-icon name="dock-top" color="currentColor"></box-icon>
                   <span class="ml-2 text-sm font-medium">Tables</span>
                 </a>
+                <a
+                  class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
+                  href="/qrcode.html"
+                  :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/qrcode.html' }"
+                >
+                  <box-icon name="barcode-reader" color="currentColor"></box-icon>
+                  <span class="ml-2 text-sm font-medium">QR Code</span>
+                </a>
               </div>
             </div>
             <a
@@ -183,7 +190,7 @@
                   <a class="text-blue-500" href="https://tailwindcss.com/docs/installation" target="_blank">
                     Install Tailwind
                   </a>
-                  <div class="mt-8 rounded-md border-2 border-gray-400 flex flex-col p-4">
+                  <div class="mt-8 rounded-md border-2 border-gray-300 flex flex-col p-4">
                     <h3 class="font-semibold text-xl mb-4">Extra plugin</h3>
                     <a class="text-blue-500 mb-4" href="https://github.com/tailwindlabs/tailwindcss-custom-forms" target="_blank">
                       Tailwind custom forms (recommend using)
@@ -192,8 +199,12 @@
                       Alpine javascript library for the modern web (recommend using)
                     </a>
                   </div>
-              
-                  <a class="form-btn text-center w-48 mt-8 bg-blue-500 text-white" href="/cards.html">View Components</a>
+                  <div class="flex">
+                    <a class="form-btn text-center w-48 mt-8 bg-blue-500 text-white" href="/cards.html">View Components</a>
+                    <a class="ml-2 form-btn text-center w-48 mt-8 border-gray-400 dark:border-white border-2" target="_blank"
+                      href="/qrcode.html">Code
+                      Generation</a>
+                  </div>
                 </div>
               </div>
           </div>
@@ -266,6 +277,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="h-screen flex justify-center items-center" x-show="$store.hub.loading">
+    <img src="/imgs/loading-200.svg"/>
   </div>
 </body>
 

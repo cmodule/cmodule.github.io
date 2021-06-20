@@ -11,14 +11,14 @@
   <title>C Module Prebuilt Tailwind Components</title>
   <link href="/icons/boxicons.min.css?v=1" rel="stylesheet">
   <script src="/icons/boxicons.js?v=1"></script>
-<script type="module" crossorigin src="/assets/tables.35b4adf5.js"></script>
-  <link rel="modulepreload" href="/assets/main.69d98cdb.js">
+<script type="module" crossorigin src="/assets/tables.dd9b899c.js"></script>
+  <link rel="modulepreload" href="/assets/main.7637b547.js">
   <link rel="modulepreload" href="/assets/vendor.62b93715.js">
-  <link rel="stylesheet" href="/assets/main.42f32622.css">
+  <link rel="stylesheet" href="/assets/main.e6dda60b.css">
 </head>
 
-<body>
-  <div class="overflow-hidden" :class="{'dark': $store.hub.dark}" x-data id="app">
+<body x-data>
+  <div class="overflow-hidden" :class="{'dark': $store.hub.dark}" x-cloak id="app" x-show="!$store.hub.loading">
     <header class="flex w-full shadow-lg bg-white text-gray-700 dark:bg-gray-800 dark:text-gray-100 h-16 z-40"
       id="header">
       <div class="flex items-center w-80 h-full">
@@ -128,6 +128,14 @@
                 >
                   <box-icon name="dock-top" color="currentColor"></box-icon>
                   <span class="ml-2 text-sm font-medium">Tables</span>
+                </a>
+                <a
+                  class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-100"
+                  href="/qrcode.html"
+                  :class="{ 'bg-gray-300 text-gray-800': sidemenuActive === '/qrcode.html' }"
+                >
+                  <box-icon name="barcode-reader" color="currentColor"></box-icon>
+                  <span class="ml-2 text-sm font-medium">QR Code</span>
                 </a>
               </div>
             </div>
@@ -268,8 +276,8 @@
                       <div class="text-end">
                         <form class="flex w-full max-w-sm space-x-3">
                           <div class=" relative ">
-                            <input type="text" id="&quot;form-subscribe-Filter"
-                              class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                            <input type="text" id="form-subscribe-Filter"
+                              class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                               placeholder="name" />
                           </div>
                           <button
@@ -599,6 +607,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="h-screen flex justify-center items-center" x-show="$store.hub.loading">
+    <img src="/imgs/loading-200.svg"/>
   </div>
 </body>
 
