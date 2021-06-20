@@ -11,8 +11,8 @@
   <title>C Module Prebuilt Tailwind Components</title>
   <link href="/icons/boxicons.min.css?v=1" rel="stylesheet">
   <script src="/icons/boxicons.js?v=1"></script>
-<script type="module" crossorigin src="/assets/carousel.62a90a18.js"></script>
-  <link rel="modulepreload" href="/assets/main.7637b547.js">
+<script type="module" crossorigin src="/assets/carousel.938762d9.js"></script>
+  <link rel="modulepreload" href="/assets/main.bfc1b33d.js">
   <link rel="modulepreload" href="/assets/vendor.62b93715.js">
   <link rel="stylesheet" href="/assets/main.e6dda60b.css">
 </head>
@@ -696,9 +696,11 @@
                       }
                     }
                   
-                    cmCarousel('#slide1', false, true)
-                    cmCarousel('#slide2', true, false)
-                    cmCarousel('#slide3', true, true, true)
+                    setTimeout(function () {
+                      cmCarousel('#slide1', false, true)
+                      cmCarousel('#slide2', true, false)
+                      cmCarousel('#slide3', true, true, true)
+                    }, 2000)
                   
                   </script>
                 </div>
