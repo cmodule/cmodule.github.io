@@ -7,14 +7,17 @@
   <link rel="icon" type="image/svg+xml" href="/imgs/favicon.ico" />
   <meta name="author" content="kimthiendung@gmail.com">
   <meta name="keywords" content="Component Tailwind HTML, cards, forms, table, list, carousel, slideshow">
-  <meta name="description" content="It has a set of accessible and reusable components that are commonly used in web applications">
+  <meta name="description"
+    content="It has a set of accessible and reusable components that are commonly used in web applications">
   <title>C Module Prebuilt Tailwind Components</title>
   <link href="/icons/boxicons.min.css?v=1" rel="stylesheet">
   <script src="/icons/boxicons.js?v=1"></script>
-<script type="module" crossorigin src="/assets/index.32bf4cdc.js"></script>
-  <link rel="modulepreload" href="/assets/main.bfc1b33d.js">
+  <script data-ad-client="ca-pub-7138616487261351" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script type="module" crossorigin src="/assets/index.54d5f621.js"></script>
+  <link rel="modulepreload" href="/assets/main.0a134a81.js">
   <link rel="modulepreload" href="/assets/vendor.62b93715.js">
-  <link rel="stylesheet" href="/assets/main.e6dda60b.css">
+  <link rel="stylesheet" href="/assets/main.d556037d.css">
 </head>
 
 <body x-data>
@@ -159,7 +162,8 @@
           <button
             class="flex items-center p-2 mx-4 rounded-full hover:bg-gray-600 hover:text-gray-100 border-2 border-gray-900 focus:outline-none"
             @click="$store.hub.darkToggle()">
-            <svg x-show="!$store.hub.dark" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak>
+            <svg x-show="!$store.hub.dark" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              x-cloak>
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
             </svg>
@@ -175,38 +179,51 @@
       class="flex flex-col items-stretch sm:flex-row w-screen h-screen bg-gray-200 text-gray-700 dark:bg-gray-900 dark:text-gray-200 overflow-auto sm:overflow-hidden"
       id="main-app">
 
-      <main class="block relative flex-grow h-auto sm:h-full sm:pr-0" id="main" x-data="_mc()"
-        x-init="_mc_init">
-          <div class="flex sm:absolute top-0 left-0 w-full h-full">
-            <div class="flex flex-1 items-stretch bg-gray-300 dark:bg-gray-800 m-4 sm:mr-0 rounded-md overflow-x-hidden">
-              <div class="p-4 flex flex-grow flex-col items-center justify-center"
-                :class="[$store.hub.dark ? 'cover-bg dark-bg': 'cover-bg light-bg']">
-                <div
-                  class="flex flex-col items-center justify-center w-full h-auto max-w-2xl p-6 backdrop-filter backdrop-blur-xl bg-opacity-70 bg-white dark:bg-opacity-50 dark:bg-gray-700 overflow-hidden sm:rounded-md">
-                  <h1 class="font-semibold text-3xl mb-4">C Module Simple From The Most Basic Things</h1>
-                  <h2 class="font-light text-2xl mb-4">Prebuilt Tailwind Components</h2>
-                  <p class="mb-4 text-center max-w-md">It has a set of accessible and reusable components that are commonly used in
-                    web applications.</p>
-                  <a class="text-blue-500" href="https://tailwindcss.com/docs/installation" target="_blank">
-                    Install Tailwind
+      <main class="block relative flex-grow h-auto sm:h-full sm:pr-0" id="main" x-data="_mc()" x-init="_mc_init">
+        <div class="flex sm:absolute top-0 left-0 w-full h-full">
+          <div class="flex flex-1 items-stretch bg-gray-300 dark:bg-gray-800 m-4 sm:mr-0 rounded-md overflow-x-hidden">
+            <div class="p-4 flex flex-grow flex-col items-center justify-center"
+              :class="[$store.hub.dark ? 'cover-bg dark-bg': 'cover-bg light-bg']">
+              <div
+                class="flex flex-col items-center justify-center w-full h-auto max-w-2xl p-6 backdrop-filter backdrop-blur-xl bg-opacity-70 bg-white dark:bg-opacity-50 dark:bg-gray-700 overflow-hidden sm:rounded-md">
+                <h1 class="font-semibold text-3xl mb-4">C Module Simple From The Most Basic Things</h1>
+                <h2 class="font-light text-2xl mb-4">Prebuilt Tailwind Components</h2>
+                <p class="mb-4 text-center max-w-md">It has a set of accessible and reusable components that are commonly used in
+                  web applications.</p>
+                <a class="text-blue-500" href="https://tailwindcss.com/docs/installation" target="_blank">
+                  Install Tailwind
+                </a>
+                <div class="mt-8 rounded-md border-2 border-gray-300 flex flex-col p-4">
+                  <h3 class="font-semibold text-xl mb-4">Extra plugin</h3>
+                  <a class="text-blue-500 mb-4" href="https://github.com/tailwindlabs/tailwindcss-custom-forms" target="_blank">
+                    Tailwind custom forms (recommend using)
                   </a>
-                  <div class="mt-8 rounded-md border-2 border-gray-300 flex flex-col p-4">
-                    <h3 class="font-semibold text-xl mb-4">Extra plugin</h3>
-                    <a class="text-blue-500 mb-4" href="https://github.com/tailwindlabs/tailwindcss-custom-forms" target="_blank">
-                      Tailwind custom forms (recommend using)
-                    </a>
-                    <a class="text-blue-500 mb-4" href="https://github.com/alpinejs/alpine" target="_blank">
-                      Alpine javascript library for the modern web (recommend using)
-                    </a>
-                  </div>
-                  <div class="flex">
-                    <a class="form-btn text-center w-48 mt-8 bg-blue-500 text-white" href="/cards.html">View Components</a>
-                    <a class="ml-2 form-btn text-center w-48 mt-8 border-gray-400 dark:border-white border-2" target="_blank"
-                      href="/qrcode.html">Code
-                      Generation</a>
-                  </div>
+                  <a class="text-blue-500 mb-4" href="https://github.com/alpinejs/alpine" target="_blank">
+                    Alpine javascript library for the modern web (recommend using)
+                  </a>
+                </div>
+                <div class="flex">
+                  <a class="form-btn text-center w-48 mt-8 bg-blue-500 text-white" href="/cards.html">View Components</a>
+                  <a class="ml-2 form-btn text-center w-48 mt-8 border-gray-400 dark:border-white border-2" target="_blank"
+                    href="/qrcode.html">Code
+                    Generation</a>
+                </div>
+                <div class="text-center mt-6">
+                  <a href="https://kimthiendung.github.io/" target="_blank"
+                    class="inline-flex items-center justify-center hover:opacity-90">
+                    <div class="avatar mr-3">
+                      <div class="h-14 w-14 p-px">
+                        <img src="/imgs/kimthiendung.jpg" alt="kimthiendung" class="rounded-full">
+                      </div>
+                    </div>
+                    <div class="text-left">
+                      <p class="text-base-content text-xs text-opacity-50">Created by</p>
+                      <h2 class="text-base-content text-lg font-bold">kimthiendung</h2>
+                    </div>
+                  </a>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </main>
@@ -279,7 +296,7 @@
     </div>
   </div>
   <div class="h-screen flex justify-center items-center" x-show="$store.hub.loading">
-    <img src="/imgs/loading-200.svg"/>
+    <img src="/imgs/loading-200.svg" />
   </div>
 </body>
 
